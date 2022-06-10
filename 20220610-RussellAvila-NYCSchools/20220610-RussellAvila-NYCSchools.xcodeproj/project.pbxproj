@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025CE9352852465900D26081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9342852465900D26081 /* AppDelegate.swift */; };
+		025CE9372852465900D26081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9362852465900D26081 /* SceneDelegate.swift */; };
+		025CE9392852465900D26081 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9382852465900D26081 /* MainViewController.swift */; };
+		025CE93C2852465900D26081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025CE93A2852465900D26081 /* Main.storyboard */; };
+		025CE93E2852465B00D26081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025CE93D2852465B00D26081 /* Assets.xcassets */; };
+		025CE9412852465B00D26081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025CE93F2852465B00D26081 /* LaunchScreen.storyboard */; };
+		025CE94C2852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE94B2852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsTests.swift */; };
+		025CE9562852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9552852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITests.swift */; };
+		025CE9582852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9572852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift */; };
+		025CE9652852469400D26081 /* NYSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9642852469400D26081 /* NYSchool.swift */; };
+		025CE9682852470900D26081 /* NYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9672852470900D26081 /* NYCell.m */; };
+		025CE96F28524D6E00D26081 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE96E28524D6E00D26081 /* SchoolListViewModel.swift */; };
+		025CE97228524F1000D26081 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE97128524F1000D26081 /* NetworkManager.swift */; };
+		025CE9742852503F00D26081 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9732852503F00D26081 /* NetworkError.swift */; };
+		025CE9762852522800D26081 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CE9752852522800D26081 /* Session.swift */; };
+		028FF41F2852C268003B598F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028FF41E2852C268003B598F /* DetailViewController.swift */; };
+		02E6893E28528A1500B255FD /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6893D28528A1500B255FD /* UIView + Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025CE9482852465B00D26081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025CE9292852465900D26081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025CE9302852465900D26081;
+			remoteInfo = "20220610-RussellAvila-NYCSchools";
+		};
+		025CE9522852465B00D26081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025CE9292852465900D26081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025CE9302852465900D26081;
+			remoteInfo = "20220610-RussellAvila-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025CE9312852465900D26081 /* 20220610-RussellAvila-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220610-RussellAvila-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025CE9342852465900D26081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025CE9362852465900D26081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		025CE9382852465900D26081 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		025CE93B2852465900D26081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025CE93D2852465B00D26081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025CE9402852465B00D26081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025CE9422852465B00D26081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025CE9472852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220610-RussellAvila-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025CE94B2852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220610_RussellAvila_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		025CE9512852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220610-RussellAvila-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		025CE9552852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220610_RussellAvila_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		025CE9572852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		025CE9642852469400D26081 /* NYSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSchool.swift; sourceTree = "<group>"; };
+		025CE9662852470900D26081 /* 20220610-RussellAvila-NYCSchools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20220610-RussellAvila-NYCSchools-Bridging-Header.h"; sourceTree = "<group>"; };
+		025CE9672852470900D26081 /* NYCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCell.m; sourceTree = "<group>"; };
+		025CE9692852476B00D26081 /* NYCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCell.h; sourceTree = "<group>"; };
+		025CE96E28524D6E00D26081 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		025CE97128524F1000D26081 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		025CE9732852503F00D26081 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		025CE9752852522800D26081 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		028FF41E2852C268003B598F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		02E6893D28528A1500B255FD /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025CE92E2852465900D26081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE9442852465B00D26081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE94E2852465B00D26081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025CE9282852465900D26081 = {
+			isa = PBXGroup;
+			children = (
+				025CE9332852465900D26081 /* 20220610-RussellAvila-NYCSchools */,
+				025CE94A2852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests */,
+				025CE9542852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests */,
+				025CE9322852465900D26081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025CE9322852465900D26081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025CE9312852465900D26081 /* 20220610-RussellAvila-NYCSchools.app */,
+				025CE9472852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests.xctest */,
+				025CE9512852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025CE9332852465900D26081 /* 20220610-RussellAvila-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				025CE9662852470900D26081 /* 20220610-RussellAvila-NYCSchools-Bridging-Header.h */,
+				025CE9342852465900D26081 /* AppDelegate.swift */,
+				025CE9362852465900D26081 /* SceneDelegate.swift */,
+				02CE95F228536D8200A9D33B /* Resources */,
+				02E6893C285289EE00B255FD /* Extensions */,
+				025CE97028524EFC00D26081 /* Service */,
+				025CE96C28524B8400D26081 /* ViewModels */,
+				025CE96B285249A300D26081 /* Base */,
+				025CE96D28524CE000D26081 /* Model */,
+				025CE96A285247FE00D26081 /* View */,
+				025CE9422852465B00D26081 /* Info.plist */,
+			);
+			path = "20220610-RussellAvila-NYCSchools";
+			sourceTree = "<group>";
+		};
+		025CE94A2852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				025CE94B2852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsTests.swift */,
+			);
+			path = "20220610-RussellAvila-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		025CE9542852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025CE9552852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITests.swift */,
+				025CE9572852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift */,
+			);
+			path = "20220610-RussellAvila-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		025CE96A285247FE00D26081 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				025CE9382852465900D26081 /* MainViewController.swift */,
+				025CE9672852470900D26081 /* NYCell.m */,
+				025CE9692852476B00D26081 /* NYCell.h */,
+				028FF41E2852C268003B598F /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		025CE96B285249A300D26081 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				025CE93F2852465B00D26081 /* LaunchScreen.storyboard */,
+				025CE93A2852465900D26081 /* Main.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		025CE96C28524B8400D26081 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				025CE96E28524D6E00D26081 /* SchoolListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		025CE96D28524CE000D26081 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				025CE9642852469400D26081 /* NYSchool.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		025CE97028524EFC00D26081 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				025CE97128524F1000D26081 /* NetworkManager.swift */,
+				025CE9732852503F00D26081 /* NetworkError.swift */,
+				025CE9752852522800D26081 /* Session.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		02CE95F228536D8200A9D33B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				025CE93D2852465B00D26081 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02E6893C285289EE00B255FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02E6893D28528A1500B255FD /* UIView + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025CE9302852465900D26081 /* 20220610-RussellAvila-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025CE95B2852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchools" */;
+			buildPhases = (
+				025CE92D2852465900D26081 /* Sources */,
+				025CE92E2852465900D26081 /* Frameworks */,
+				025CE92F2852465900D26081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20220610-RussellAvila-NYCSchools";
+			productName = "20220610-RussellAvila-NYCSchools";
+			productReference = 025CE9312852465900D26081 /* 20220610-RussellAvila-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025CE9462852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025CE95E2852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchoolsTests" */;
+			buildPhases = (
+				025CE9432852465B00D26081 /* Sources */,
+				025CE9442852465B00D26081 /* Frameworks */,
+				025CE9452852465B00D26081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025CE9492852465B00D26081 /* PBXTargetDependency */,
+			);
+			name = "20220610-RussellAvila-NYCSchoolsTests";
+			productName = "20220610-RussellAvila-NYCSchoolsTests";
+			productReference = 025CE9472852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025CE9502852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025CE9612852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchoolsUITests" */;
+			buildPhases = (
+				025CE94D2852465B00D26081 /* Sources */,
+				025CE94E2852465B00D26081 /* Frameworks */,
+				025CE94F2852465B00D26081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025CE9532852465B00D26081 /* PBXTargetDependency */,
+			);
+			name = "20220610-RussellAvila-NYCSchoolsUITests";
+			productName = "20220610-RussellAvila-NYCSchoolsUITests";
+			productReference = 025CE9512852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025CE9292852465900D26081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					025CE9302852465900D26081 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					025CE9462852465B00D26081 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 025CE9302852465900D26081;
+					};
+					025CE9502852465B00D26081 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 025CE9302852465900D26081;
+					};
+				};
+			};
+			buildConfigurationList = 025CE92C2852465900D26081 /* Build configuration list for PBXProject "20220610-RussellAvila-NYCSchools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025CE9282852465900D26081;
+			productRefGroup = 025CE9322852465900D26081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025CE9302852465900D26081 /* 20220610-RussellAvila-NYCSchools */,
+				025CE9462852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsTests */,
+				025CE9502852465B00D26081 /* 20220610-RussellAvila-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025CE92F2852465900D26081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025CE9412852465B00D26081 /* LaunchScreen.storyboard in Resources */,
+				025CE93E2852465B00D26081 /* Assets.xcassets in Resources */,
+				025CE93C2852465900D26081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE9452852465B00D26081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE94F2852465B00D26081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025CE92D2852465900D26081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028FF41F2852C268003B598F /* DetailViewController.swift in Sources */,
+				025CE96F28524D6E00D26081 /* SchoolListViewModel.swift in Sources */,
+				025CE9742852503F00D26081 /* NetworkError.swift in Sources */,
+				025CE9652852469400D26081 /* NYSchool.swift in Sources */,
+				025CE9392852465900D26081 /* MainViewController.swift in Sources */,
+				025CE97228524F1000D26081 /* NetworkManager.swift in Sources */,
+				025CE9352852465900D26081 /* AppDelegate.swift in Sources */,
+				02E6893E28528A1500B255FD /* UIView + Extensions.swift in Sources */,
+				025CE9682852470900D26081 /* NYCell.m in Sources */,
+				025CE9372852465900D26081 /* SceneDelegate.swift in Sources */,
+				025CE9762852522800D26081 /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE9432852465B00D26081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025CE94C2852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025CE94D2852465B00D26081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025CE9582852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITestsLaunchTests.swift in Sources */,
+				025CE9562852465B00D26081 /* _0220610_RussellAvila_NYCSchoolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025CE9492852465B00D26081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025CE9302852465900D26081 /* 20220610-RussellAvila-NYCSchools */;
+			targetProxy = 025CE9482852465B00D26081 /* PBXContainerItemProxy */;
+		};
+		025CE9532852465B00D26081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025CE9302852465900D26081 /* 20220610-RussellAvila-NYCSchools */;
+			targetProxy = 025CE9522852465B00D26081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025CE93A2852465900D26081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025CE93B2852465900D26081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025CE93F2852465B00D26081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025CE9402852465B00D26081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025CE9592852465B00D26081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025CE95A2852465B00D26081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025CE95C2852465B00D26081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20220610-RussellAvila-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "20220610-RussellAvila-NYCSchools/20220610-RussellAvila-NYCSchools-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025CE95D2852465B00D26081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20220610-RussellAvila-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "20220610-RussellAvila-NYCSchools/20220610-RussellAvila-NYCSchools-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		025CE95F2852465B00D26081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220610-RussellAvila-NYCSchools.app/20220610-RussellAvila-NYCSchools";
+			};
+			name = Debug;
+		};
+		025CE9602852465B00D26081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220610-RussellAvila-NYCSchools.app/20220610-RussellAvila-NYCSchools";
+			};
+			name = Release;
+		};
+		025CE9622852465B00D26081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20220610-RussellAvila-NYCSchools";
+			};
+			name = Debug;
+		};
+		025CE9632852465B00D26081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "russellavila.-0220610-RussellAvila-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20220610-RussellAvila-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025CE92C2852465900D26081 /* Build configuration list for PBXProject "20220610-RussellAvila-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025CE9592852465B00D26081 /* Debug */,
+				025CE95A2852465B00D26081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025CE95B2852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025CE95C2852465B00D26081 /* Debug */,
+				025CE95D2852465B00D26081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025CE95E2852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025CE95F2852465B00D26081 /* Debug */,
+				025CE9602852465B00D26081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025CE9612852465B00D26081 /* Build configuration list for PBXNativeTarget "20220610-RussellAvila-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025CE9622852465B00D26081 /* Debug */,
+				025CE9632852465B00D26081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025CE9292852465900D26081 /* Project object */;
+}
